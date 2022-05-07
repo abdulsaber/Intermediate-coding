@@ -19,7 +19,7 @@ public class Primeno {
                 count++;
             }
         }
-        if(count>2){
+        if(count < 2){
             System.out.println(n+" : Prime number");
         }else{
             System.out.println(n+" : Not a prime number");
